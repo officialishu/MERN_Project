@@ -1,0 +1,82 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+.mainContainer {
+    height: 100;
+    width: 100;
+    border-style:ridge;
+   
+}
+
+.nav {
+    height: 10vh;
+    background-color: rgb(66, 10, 51);
+    color: rgb(206, 203, 206);
+    font-size: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgb(107, 107, 107);
+    font-family: Edu SA Beginner;
+    cursive;
+    border: groove px 10px 5px 10px;
+}
+
+.subContainer {
+    height:120vh ;
+    width: auto;
+    background-color: rgb(197, 230, 221) ;
+    display: flex;
+    font-family: Edu SA Beginner;
+    cursive;
+
+}
+
+.edit, .view {
+    color: rgb(7, 6, 6);
+    width: 50;
+    background-color: rgb(197, 230, 221);
+    Border: groove 4px solid rgb(130, 130, 130);
+    font-family: Edu SA Beginner;
+    cursive;
+    
+}
+.view {
+    background-color: rgb(197, 230, 221);
+    justify-content: center;
+    align-items: center;
+}
+
+#viewContainer {
+    color: rgb(40, 39, 38);
+    font-size: 30px;
+    justify-content: center;
+    align-self: center;
+}
+
+.subNav {
+    padding-top: 15px;
+    padding-left: 10px;
+    height: 5%;
+    width: auto;
+    font-size:25px ;
+    background-color: rgb(156, 156, 156);
+    border-style: groove;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#editContainer {
+    color: rgb(123, 442, 225);
+    font-size: 30px;
+    font-family: Edu SA Beginner;
+    cursive;
+    background-color: rgb(45, 49, 46);
+    height: 100vh;
+    width: 100%;
+    padding: 3px;
+}

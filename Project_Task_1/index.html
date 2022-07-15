@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link  rel="stylesheet" href="./style.css">
+
+        <title>Live Server</title>
+        <body>
+            <div class = "mainContainer">
+            <div class = "nav">HTML Live Interpreter <i style='font-size:24px' class='fas'>&#xf108;</i></i></div>
+                <div class = "subContainer">
+                    <div class="edit">
+                    <div class="subNav">Editor <i style='font-size:24px' class='far'>&#xf11c;</i> </div>
+                        <textarea type="code" name="edit" id="editContainer" oninput="Update()"></textarea>
+                    </div>
+                    <div class="view">
+                        <div class="subNav">Live Server <i style='font-size:24px' class='far'>&#xf11c;</i>
+                        </div>
+                        <div id="viewContainer"></div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="./script.js"></script>
+            
+
+        </body>
+
+
+    </head>
+</html>
